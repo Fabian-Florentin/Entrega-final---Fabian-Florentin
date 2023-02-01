@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/logo.png">
+    <title>Proyecto-Final - FF</title>
+</head>
+
+<!-- Estructura principal -->
+<body class="cuerpoPrinc">
+
+    <nav>
+        <a href="./index.html">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+            </svg>
+        </a>
+
+        <ul class="menu">
+            <li class="linea"><a class="linea-link" href="./historia.html">HISTORIA</a></li>
+            <li class="linea"><a class="linea-link" href="./juego.html">JUGUEMOS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cabecera página -->
+    <header>
+        <h1 class="tituloProgHist">PROGRAMACION E HISTORIA</h1>
+
+    </header>
+
+
+    <!-- Cuerpo de página-->
+    <h2>CONTENIDO</h2>
+    <main class="contenido">
+        <!-- Opciones de historia y juego -->
+        <div class="card">
+            <img class="img-card" src="./imagenes/img1.jpg" alt="Imagen de producto">
+            <p class="desc-card">Conozcamos Un poco sobre la historia de la programación </p>
+            <a class="boton-ver" href="./historia.html" style="color:#F0F5E4">Ir a Historia</a>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="./imagenes/img2.jpg" alt="Imagen de producto">
+            <p class="desc-card">Juguemos un poco sobre la computación</p>
+            <a class="boton-ver" href="./juego.html" style="color:#F0F5E4">Ir a juego</a>
+        </div>
+
+    </main>
+
+    <!-- Pie de página-->
+    <footer>
+        <div class="footer-left">
+            <img class="logo" src="./imagenes/logo.png" alt="Es un Logo">
+            <h3 class="tituloProgHist titFooter">PROGRAMACIÓN <br> E <br> HISTORIA </h3>
+        </div>
+        <div>Sitio con fines educativos - Creado por Fabián Florentin</div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
